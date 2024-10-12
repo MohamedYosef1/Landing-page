@@ -97,3 +97,15 @@ button {
   margin-top: 5px;
   cursor: pointer;
 }
+
+/* Info section */
+
+.info .title {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.title {
+  text-align: center;
+}
