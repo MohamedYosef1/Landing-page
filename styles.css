@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,7 +17,7 @@ body {
   flex-direction: column;
   background-color: #1f2937;
   color: #f9faf8;
-  padding: 60px;
+  padding: 10px 60px 60px 60px;
   gap: 40px;
 }
 
@@ -42,4 +44,35 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* Hero section */
+
+.hero-section {
+  display: flex;
+}
+
+.hero-para {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-header {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-image {
+  width: 400px;
+  height: 200px;
+}
+
+button {
+  background: #3882f6;
+  border-radius: 8px;
+  border: 1px solid black;
+  color: #e5e7eb;
+  padding: 8px 24px;
+  font-weight: bolder;
 }
