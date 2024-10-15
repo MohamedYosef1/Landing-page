@@ -101,7 +101,7 @@ button {
 /* Info section */
 
 .info {
-  /* flex: 1;  maybe for to section webpage later*/
+  /* flex: 1; */
   padding: 40px;
 }
 
@@ -139,10 +139,23 @@ button {
 /* Testimonial section */
 
 .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #e5e7eb;
+  gap: 10px;
 }
 .testimonial-text {
+  width: 1000px;
   font-size: 36px;
-  font-weight: light italic;
+  font-style: italic;
   color: #1f2937;
+}
+
+.author {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  margin-left: auto;
 }
