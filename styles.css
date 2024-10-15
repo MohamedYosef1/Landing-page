@@ -101,7 +101,7 @@ button {
 /* Info section */
 
 .info {
-  flex: 1;
+  /* flex: 1;  maybe for to section webpage later*/
   padding: 40px;
 }
 
@@ -134,4 +134,15 @@ button {
   height: 100px;
   border: 3px solid blue;
   border-radius: 8px;
+}
+
+/* Testimonial section */
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+.testimonial-text {
+  font-size: 36px;
+  font-weight: light italic;
+  color: #1f2937;
 }
