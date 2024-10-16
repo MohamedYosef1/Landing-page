@@ -109,7 +109,7 @@ button {
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 54px;
+  gap: 100px;
 }
 
 .card {
@@ -125,16 +125,18 @@ button {
 }
 
 .info .text {
+  width: 120px;
   text-align: center;
   color: rgb(99, 99, 99);
   font-size: 13px;
 }
 
 .image {
-  width: 100px;
-  height: 100px;
-  border: 3px solid blue;
-  border-radius: 8px;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
 
 /* Testimonial section */
