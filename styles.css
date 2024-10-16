@@ -103,13 +103,13 @@ button {
 
 .info {
   flex: 1;
-  padding: 40px;
+  padding: 40px 100px 100px 100px;
 }
 
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 80px;
 }
 
 .card {
