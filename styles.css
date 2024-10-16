@@ -204,3 +204,14 @@ button {
   color: #e5e7eb;
   padding: 30px 80px;
 }
+
+/* Effects */
+
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline #e5e7eb 3px;
+}
