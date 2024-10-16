@@ -15,6 +15,7 @@ body {
 
 .header {
   display: flex;
+  flex: 1;
   background-color: #1f2937;
   justify-content: center;
   align-items: center;
@@ -144,7 +145,7 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  gap: 10px;
+  padding: 60px;
 }
 .testimonial-text {
   width: 900px;
@@ -158,4 +159,36 @@ button {
   font-style: normal;
   font-weight: 800;
   text-align: end;
+}
+
+/* Call to action section */
+
+.call-to-action {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 8px;
+}
+
+.call-to-action .title,
+.call-to-action .text {
+  color: #e5e7eb;
+}
+
+.call-to-action .title {
+  font-weight: 900;
+}
+
+.call-to-action button {
+  border-color: #e5e7eb;
 }
