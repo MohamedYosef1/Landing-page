@@ -20,14 +20,15 @@ body {
   justify-content: center;
   align-items: center;
   color: #f9faf8;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .hero-container {
-  width: 1400px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
-  padding: 20px 70px 70px 70px;
-  gap: 70px;
+  gap: 100px;
 }
 
 .logo {
@@ -61,11 +62,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
 }
 
 .hero-content {
-  width: 430px;
+  width: 450px;
 }
 
 .hero-para {
@@ -81,8 +81,8 @@ a {
 
 .hero-image {
   display: flex;
-  width: 600px;
-  height: 300px;
+  width: 550px;
+  height: 210px;
   background-color: grey;
   justify-content: center;
   align-items: center;
@@ -145,13 +145,14 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  padding: 60px;
+  padding: 80px;
 }
 .testimonial-text {
-  width: 900px;
+  width: 800px;
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+  font-weight: 350;
 }
 
 .author {
