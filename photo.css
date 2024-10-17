@@ -71,12 +71,6 @@ a {
 
 /* Hero section */
 
-.hero-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .hero-content {
   width: 450px;
 }
@@ -90,15 +84,6 @@ a {
   font-size: 48px;
   color: #1f2937;
   font-weight: 900;
-}
-
-.hero-image {
-  display: flex;
-  width: 550px;
-  height: 210px;
-  background-color: grey;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-button {
@@ -129,7 +114,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px;
+  padding: 120px;
 }
 
 .info-container {
@@ -139,7 +124,8 @@ button {
 }
 
 .card {
-  max-width: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .info .title {
@@ -151,16 +137,17 @@ button {
 }
 
 .info .text {
-  width: 120px;
+  width: 200px;
   text-align: center;
   color: rgb(99, 99, 99);
   font-size: 13px;
+  text-align: center;
 }
 
-.image {
-  width: 120px;
-  height: 120px;
-  border: 3px solid #3882f6;
+.image img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #1f2937;
   border-radius: 10px;
   margin-bottom: 8px;
 }
