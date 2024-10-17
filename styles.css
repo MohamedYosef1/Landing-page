@@ -13,12 +13,22 @@ body {
   font-family: Roboto;
 }
 
-.header {
+/* General layout for all sections */
+
+.header,
+.testimonial,
+.call-to-action,
+.footor {
   display: flex;
   flex: 1;
-  background-color: #1f2937;
   justify-content: center;
   align-items: center;
+}
+
+/* end */
+
+.header {
+  background-color: #1f2937;
   color: #f9faf8;
   padding-top: 20px;
   padding-bottom: 100px;
@@ -102,7 +112,7 @@ button {
 /* Info section */
 
 .info {
-  flex: 1;
+  flex-direction: column;
   padding: 40px 100px 100px 100px;
 }
 
@@ -142,12 +152,8 @@ button {
 /* Testimonial section */
 
 .testimonial {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
   background-color: #e5e7eb;
-  padding: 80px;
+  padding: 100px;
 }
 .testimonial-text {
   width: 800px;
@@ -167,10 +173,6 @@ button {
 /* Call to action section */
 
 .call-to-action {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
   padding: 70px;
 }
 
@@ -196,10 +198,9 @@ button {
   border-color: #e5e7eb;
 }
 
+/* Footor section */
+
 .footor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #1f2937;
   color: #e5e7eb;
   padding: 30px 80px;
