@@ -1,5 +1,7 @@
 # Landing-page
 
+View landing page here: https://mohamedyosef1.github.io/Landing-page/
+
 # Overview
 
 This project is a landing page created as part of The Odin Project. It showcases my skills in HTML and CSS.
