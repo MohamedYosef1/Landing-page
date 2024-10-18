@@ -89,7 +89,7 @@ a {
 .hero-button {
   background: rgb(218, 175, 119);
   border-radius: 8px;
-  border: 1px solid #1f2937;
+  border: 1px solid #fff;
   color: #ffffff;
   padding: 8px 24px;
   font-weight: bolder;
@@ -114,7 +114,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 120px;
+  padding: 100px;
 }
 
 .info-container {
@@ -150,6 +150,12 @@ button {
   border: 3px solid #1f2937;
   border-radius: 10px;
   margin-bottom: 8px;
+}
+
+.text a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1f2937;
 }
 
 /* Testimonial section */
@@ -214,6 +220,11 @@ button {
 button:hover {
   background-color: whitesmoke;
   color: black;
+}
+
+.hero-button:hover {
+  background-color: #3882f6;
+  color: #e5e7eb;
 }
 
 a:hover {
